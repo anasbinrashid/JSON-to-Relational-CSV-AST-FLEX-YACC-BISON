@@ -1,0 +1,90 @@
+{
+  "customer": {
+    "id": "C-1000",
+    "name": "Zhang Wei",
+    "email": "zhang@example.com",
+    "verified": true,
+    "signup_date": "2023-04-15T08:30:00Z",
+    "premium_member": false,
+    "credit_score": null,
+    "address": {
+      "street": "123 Main St.",
+      "city": "Springfield",
+      "zip": "62704",
+      "coordinates": [39.78, -89.65]
+    },
+    "preferences": {
+      "theme": "dark",
+      "notifications": true,
+      "newsletter": false
+    },
+    "orders": [
+      {
+        "order_id": "ORD-2023-001",
+        "date": "2023-05-20",
+        "amount": 129.99,
+        "payment_method": "credit_card",
+        "items": [
+          {
+            "product_id": "P-567",
+            "name": "Wireless Headphones",
+            "price": 89.99,
+            "quantity": 1,
+            "tags": ["electronics", "audio"]
+          },
+          {
+            "product_id": "P-238",
+            "name": "USB Cable",
+            "price": 20.00,
+            "quantity": 2,
+            "tags": ["electronics", "accessories"]
+          }
+        ],
+        "shipping": {
+          "method": "express",
+          "tracking_number": "TRK123456789",
+          "estimated_delivery": "2023-05-23"
+        }
+      },
+      {
+        "order_id": "ORD-2023-015",
+        "date": "2023-06-17",
+        "amount": 55.50,
+        "payment_method": "paypal",
+        "items": [
+          {
+            "product_id": "P-734",
+            "name": "T-shirt",
+            "price": 25.50,
+            "quantity": 1,
+            "tags": ["clothing", "summer"]
+          },
+          {
+            "product_id": "P-851",
+            "name": "Coffee Mug",
+            "price": 15.00,
+            "quantity": 2,
+            "tags": ["kitchen", "gifts"]
+          }
+        ],
+        "shipping": {
+          "method": "standard",
+          "tracking_number": "TRK987654321",
+          "estimated_delivery": "2023-06-24"
+        }
+      }
+    ],
+    "reviews": [],
+    "wishlists": [
+      {
+        "name": "Birthday Ideas",
+        "products": ["P-123", "P-456", "P-789"]
+      },
+      {
+        "name": "Tech Gadgets",
+        "products": ["P-234", "P-567"]
+      }
+    ],
+    "notes": "Customer requested email communications in Chinese language."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "university": "Tech University",
+  "departments": [
+    {
+      "name": "Computer Science",
+      "courses": [
+        {
+          "code": "CS101",
+          "title": "Intro to Programming",
+          "credits": 3,
+          "prerequisites": ["Math101"]
+        },
+        {
+          "code": "CS202",
+          "title": "Data Structures",
+          "credits": 4,
+          "prerequisites": ["CS101", "Math202"]
+        }
+      ],
+      "faculty": [
+        {"id": "F1", "name": "Dr. Smith", "courses": ["CS101"]},
+        {"id": "F2", "name": "Dr. Johnson", "courses": ["CS101", "CS202"]}
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "courses": [
+        {
+          "code": "Math101",
+          "title": "Calculus I",
+          "credits": 4,
+          "prerequisites": []
+        },
+        {
+          "code": "Math202",
+          "title": "Linear Algebra",
+          "credits": 3,
+          "prerequisites": ["Math101"]
+        }
+      ],
+      "faculty": [
+        {"id": "F3", "name": "Dr. Chen", "courses": ["Math101", "Math202"]}
+      ]
+    }
+  ],
+  "academicYear": 2025,
+  "accredited": true
+}
